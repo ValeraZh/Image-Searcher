@@ -3,5 +3,7 @@
 </script>
 
 <template>
-  <h1>It's work</h1>
+  <div class="min-h-[100dvh] flex flex-col">
+    <RouterView />
+  </div>
 </template>
