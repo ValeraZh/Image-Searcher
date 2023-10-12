@@ -4,7 +4,7 @@ export const routes: RouteRecordRaw[] = [
   {
     path: "/:pathMatch(.*)*",
     name: "PageNotFound",
-    component: () => import("./../components/Errors/404.vue"),
+    component: () => import("@/components/Errors/404.vue"),
   },
   // {
   //   path: "/",
