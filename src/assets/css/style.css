@@ -4,6 +4,6 @@
 
 @layer components {
   .container {
-    @apply max-w-[1440px] w-full xl:px-[220px];
+    @apply max-w-[1440px] w-full px-4 xl:px-[220px];
   }
 }
