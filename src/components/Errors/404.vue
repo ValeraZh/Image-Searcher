@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-[100dvh] flex justify-center items-center bg-[#F9F9F9]">
+  <div class="w-full min-h-[calc(100dvh-88px)] flex justify-center items-center">
     <div class="flex flex-col items-center px-4">
       <p class="text-[#393053] text-[140px] font-bold sm:text-[200px] md:text-[220px]">
         404
