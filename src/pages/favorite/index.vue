@@ -39,7 +39,7 @@ function remove(id: string) {
 
 onMounted(() => {
   fetchPhotosFromLocalStorage()
-})
+});
 </script>
 
 <template>
