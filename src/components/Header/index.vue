@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import { useRoute } from "vue-router";
 
 const isOpen = ref<boolean>(false)
@@ -8,12 +8,6 @@ const route = useRoute();
 const toggleSearchBar = () => {
   isOpen.value = !isOpen.value
 }
-
-onMounted(() => {
-  if (!route.path.includes('/home')) {
-    isOpen.value = false
-  }
-})
 </script>
 
 <template>
@@ -50,7 +44,7 @@ onMounted(() => {
         </div>
       </div>
     </nav>
-    <div v-if="isOpen" class="max-h-[220px] w-full flex justify-center items-center px-[20%] py-[80px] image-bg">
+    <div v-if="isOpen && $route.path.includes('home')" class="max-h-[220px] w-full flex justify-center items-center px-[20%] py-[80px] image-bg">
       <Search class="w-full border z-20" />
     </div>
   </header>
