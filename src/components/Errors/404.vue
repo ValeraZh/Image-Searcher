@@ -10,7 +10,7 @@
       <span class="pt-3 text-[#969696] text-center text-lg font-normal">
         Попробуйте снова или вернитесь на главную
       </span>
-      <button @click="$router.push('/')" class="mt-10 py-3 px-5 text-white bg-[#393053] rounded-full">
+      <button @click="$router.push('/home')" class="mt-10 py-3 px-5 text-white bg-[#393053] rounded-full">
         Вернуться на главную
       </button>
       </div>

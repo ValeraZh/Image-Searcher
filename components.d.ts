@@ -8,12 +8,14 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     404: typeof import('./src/components/Errors/404.vue')['default']
+    DownloadIcon: typeof import('./src/components/DownloadIcon/index.vue')['default']
     Header: typeof import('./src/components/Header/index.vue')['default']
     HeartIcon: typeof import('./src/components/HeartIcon/index.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     Logo: typeof import('./src/components/Logo/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Search: typeof import('./src/components/Search/index.vue')['default']
     SearchIcon: typeof import('./src/components/SearchIcon/index.vue')['default']
   }
 }
