@@ -30,7 +30,7 @@ const toggleSearchBar = () => {
             >
               <SearchIcon 
                 :class="{ 'stroke-white': isOpen }" 
-                class="aspect-auto stroke-slate-700 group-hover:stroke-slate-500" 
+                class="w-[30px] h-[30px] aspect-auto stroke-slate-700 group-hover:stroke-slate-500" 
               />
               <span class="hidden sm:block">Поиск</span>
             </div>
