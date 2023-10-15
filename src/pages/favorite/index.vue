@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { createApi } from 'unsplash-js';
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted } from 'vue';
 
 const photos = ref<any[]>([]);
 
